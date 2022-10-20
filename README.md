@@ -1,3 +1,16 @@
+my modifications
+================
+
+Adds a new REPL command, `yarnnode`, which runs a node repl in the yarn shell in order to be able to use PNP-linked packages. To set up, create the following file somewhere in your PATH:
+
+```
+#!/bin/bash
+
+yarn node
+```
+
+and make it executable. Then, you can run `:Repl yarnnode` to get a node repl with PNP support.
+
 REPLs play nicely with :terminal on Vim and Neovim
 ==================================================
 
