@@ -5,7 +5,7 @@ let s:default_repls = {
 \   'python': ['ptpython', 'python3', 'python'],
 \   'ocaml': ['ocaml'],
 \   'javascript': ['node', 'd8', 'electron'],
-\   'typescript': ['ts_node', 'yarn-node'],
+\   'typescript': ['ts_node', 'yarnnode'],
 \   'haskell': ['ghci'],
 \   'swift': ['swift'],
 \   'lua': ['lua'],
